@@ -1,0 +1,38 @@
+/* Remove os navbar's padrão margin-bottom e bordas arredondadas */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+   
+/* Defina a altura da grade de modo que .sidenav possa ser 100% (ajuste conforme necessário) */
+.row.content {height: 450px}
+    
+/* Definir cor de fundo cinza e 100% de altura */
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+    
+/* Definir cor de fundo preto, texto branco e algum preenchimento */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+    
+/* Em telas pequenas, defina a altura como 'auto' para sidenav e grade */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;} 
+}
+
+#container img {
+  max-width:300px;
+  max-height:200px;
+  width: auto;
+  height: auto;
+}
